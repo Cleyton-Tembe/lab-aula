@@ -42,10 +42,6 @@ function calculate(a, b, operation) {
       return somar(a, b);
     case "-":
       return subtrair(a, b);
-    case "*":
-      return multiplicar(a, b);
-    case "/":
-      return dividir(a, b);
     default:
       throw new Error("Operação indisponível.");
   }
