@@ -40,6 +40,8 @@ function calculate(a, b, operation) {
   switch (operation) {
     case "+":
       return somar(a, b);
+    case "-":
+      return subtrair(a, b);
     default:
       throw new Error("Operação indisponível.");
   }
