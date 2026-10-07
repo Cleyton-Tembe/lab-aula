@@ -1,3 +1,3 @@
-# Etapa 0 — configuração inicial
+# 2.º commit — soma
 
-Estrutura base do projecto e pipeline de Integração Contínua com dois jobs: **Testes Unitários** e **Build**.
+Implementar `somar(a, b)` e confirmar o pipeline verde.

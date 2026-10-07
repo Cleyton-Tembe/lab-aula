@@ -1,3 +1,3 @@
-# Soma — pipeline vermelho
+# Soma — pipeline verde
 
-O teste de soma foi criado antes da implementação. Ao fazer push desta versão, o job **Testes Unitários** deve falhar. Como o job **Build** depende dos testes, não deve executar.
+A função `somar` está implementada. O push deve executar os testes com sucesso e, em seguida, executar o build e criar o artefacto `dist/`.
